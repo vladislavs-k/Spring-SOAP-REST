@@ -17,7 +17,6 @@ public class LearnSpringFrameworkApplication {
 				SpringApplication.run(LearnSpringFrameworkApplication.class, args);
 		
 		GameRunner runner = context.getBean(GameRunner.class);
-		
 		runner.runGame();
 
 	}
