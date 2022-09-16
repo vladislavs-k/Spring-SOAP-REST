@@ -13,7 +13,6 @@ public class GameRunner {
 		this.game = game;
 	}
 	
-
 	public void runGame() {
 		game.up();
 		game.down();
