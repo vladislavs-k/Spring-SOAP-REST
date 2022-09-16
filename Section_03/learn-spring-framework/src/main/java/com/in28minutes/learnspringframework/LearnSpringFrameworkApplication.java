@@ -7,6 +7,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 import com.in28minutes.learnspringframework.game.GameRunner;
 
 @SpringBootApplication
+//@ComponentScan("com.in28minutes.learnspringframework | com.in28minutes.dummy")
+//@ComponentScan({"com.in28minutes.learnspringframework", "com.in28minutes.dummy"})
 public class LearnSpringFrameworkApplication {
 
 	public static void main(String[] args) {
