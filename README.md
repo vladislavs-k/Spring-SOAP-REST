@@ -10,8 +10,8 @@ Completion tracking:
 ```
 | Progress  |   Section                                                             |
 |-----------|-----------------------------------------------------------------------|
-|           |   1.  Getting Started                                                 |
-|           |   2.  Introduction To Web Services                                    |
+| Completed |   1.  Getting Started                                                 |
+| Completed |   2.  Introduction To Web Services                                    |
 |           |   3.  Introduction to Spring Framework in 10 Steps (NOW 17)           |
 |           |   4.  Introduction to Spring Boot in 10 Steps (NOW 12)                |
 |           |   5.  SOAP Web Services with Spring and Spring Boot                   |
