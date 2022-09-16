@@ -8,12 +8,12 @@ public class GameRunner {
 
 	@Autowired
 	private GamingConsole game;
-
 	
 	public GameRunner(GamingConsole game) {
 		this.game = game;
 	}
 	
+
 	public void runGame() {
 		game.up();
 		game.down();
