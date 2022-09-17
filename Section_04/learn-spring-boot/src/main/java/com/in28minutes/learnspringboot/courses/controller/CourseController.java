@@ -18,6 +18,6 @@ public class CourseController {
 	
 	@GetMapping("/courses/1")
 	public Course getCourse() {
-		return new Course(1, "Learn Microservices", "in28minutes");
+		return new Course(1, "Learn Microservices devtools", "in28minutes");
 	}
 }
