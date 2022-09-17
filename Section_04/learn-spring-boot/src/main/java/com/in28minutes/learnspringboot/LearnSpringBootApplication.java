@@ -10,6 +10,7 @@ public class LearnSpringBootApplication {
 		SpringApplication.run(LearnSpringBootApplication.class, args);
 		
 		
+		
 	}
 
 }
