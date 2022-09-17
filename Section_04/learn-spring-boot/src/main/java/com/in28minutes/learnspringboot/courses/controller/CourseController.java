@@ -12,6 +12,12 @@ public class CourseController {
 
 	@GetMapping("/courses")
 	public List<Course> gelAllCourses() {
-		return List.of(new Course(1, "Learn Microservices", "in28minutes"));
+		return List.of(new Course(1, "Learn Microservices", "in28minutes"),
+				new Course(2, "Full Stack", "in28minutes"));
+	}
+	
+	@GetMapping("/courses/1")
+	public Course getCourse() {
+		return new Course(1, "Learn Microservices", "in28minutes");
 	}
 }
