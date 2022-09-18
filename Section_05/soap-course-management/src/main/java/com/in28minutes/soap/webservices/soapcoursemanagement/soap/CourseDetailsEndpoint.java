@@ -22,6 +22,7 @@ public class CourseDetailsEndpoint {
 		courseDetails.setId(request.getId());
 		courseDetails.setName("Microservices");
 		courseDetails.setDescription("Great course!");
+		response.setCourseDetails(courseDetails);
 
 		return response;
 	}
