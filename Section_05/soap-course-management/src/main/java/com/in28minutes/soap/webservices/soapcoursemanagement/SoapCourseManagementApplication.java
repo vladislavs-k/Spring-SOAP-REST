@@ -8,9 +8,8 @@ public class SoapCourseManagementApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SoapCourseManagementApplication.class, args);
-		
-		
-		
 	}
 
 }
+
+//S5: Section 5 completed!
