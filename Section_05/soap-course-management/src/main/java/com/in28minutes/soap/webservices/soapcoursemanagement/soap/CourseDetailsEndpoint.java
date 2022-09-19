@@ -16,6 +16,7 @@ import com.in28minutes.courses.GetAllCourseDetailsResponse;
 import com.in28minutes.courses.GetCourseDetailsRequest;
 import com.in28minutes.courses.GetCourseDetailsResponse;
 import com.in28minutes.soap.webservices.soapcoursemanagement.soap.bean.Course;
+import com.in28minutes.soap.webservices.soapcoursemanagement.soap.exception.CourseNotFoundException;
 import com.in28minutes.soap.webservices.soapcoursemanagement.soap.service.CourseDetailsService;
 import com.in28minutes.soap.webservices.soapcoursemanagement.soap.service.CourseDetailsService.Status;
 
@@ -32,6 +33,10 @@ public class CourseDetailsEndpoint {
 		processCourseDetailsRequest(@RequestPayload GetCourseDetailsRequest request) {
 		
 		Course course = service.findById(request.getId());
+		
+		if(course==null) {
+			throw new CourseNotFoundException("Invalid Course Id: " + request.getId());
+		}
 		
 		return mapCourseDetails(course);
 	}
