@@ -8,10 +8,8 @@ public class RestfulWebServicesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RestfulWebServicesApplication.class, args);
-		
-		
-		
-		
 	}
 
 }
+
+//S6: Section 6 completed!
