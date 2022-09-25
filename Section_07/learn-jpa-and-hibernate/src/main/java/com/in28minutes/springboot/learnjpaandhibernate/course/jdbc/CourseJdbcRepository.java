@@ -3,6 +3,8 @@ package com.in28minutes.springboot.learnjpaandhibernate.course.jdbc;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import com.in28minutes.springboot.learnjpaandhibernate.course.Course;
+
 @Repository
 public class CourseJdbcRepository {
 	
@@ -15,12 +17,25 @@ public class CourseJdbcRepository {
 	private static String INSERT_QUERY =
 			"""
 				INSERT INTO course (id, name, author) 
-				VALUES (1, 'Learn AWS', 'in28minutes');
+				VALUES (?, ?, ?);
+			""";
+	
+	private static String DELETE_QUERY =
+			"""
+				DELETE FROM course 
+				WHERE id = ?;
 			""";
 	
 	
-	public void insert() {
-		springJdbcTemplate.update(INSERT_QUERY);
+	public void insert(Course course) {
+		springJdbcTemplate.update(INSERT_QUERY, course.getId(), course.getName(), course.getAuthor());
 	}
+	
+	public void deleteById(long id) {
+		springJdbcTemplate.update(DELETE_QUERY, id);
+	}
+	
+	
+	
 
 }
