@@ -8,10 +8,8 @@ public class LearnJpaAndHibernateApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LearnJpaAndHibernateApplication.class, args);
-		
-		
-		
-		
 	}
 
 }
+
+//S7: Section 7 completed!
