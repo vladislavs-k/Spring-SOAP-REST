@@ -16,7 +16,7 @@ Completion tracking:
 | Completed |   4.  Introduction to Spring Boot in 10 Steps (NOW 12)                |
 | Completed |   5.  SOAP Web Services with Spring and Spring Boot                   |
 | Completed |   6.  RESTful Web Services with Spring and Spring Boot                |
-|           |   7.  Introduction to JPA in 10 Steps                                 |
+| InProgress|   7.  Introduction to JPA in 10 Steps                                 |
 |           |   8.  Connecting RESTful Web Service to JPA                           |
 |           |   9.  RESTful Web Services - Best Practices                           |
 |           |   10. Congratulations                                                 |
