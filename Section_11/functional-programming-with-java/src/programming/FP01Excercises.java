@@ -15,6 +15,8 @@ public class FP01Excercises {
 		printAllCourses(courses);
 		printSpringCourses(courses);
 		printFourLettersCourses(courses);
+		printCubesOfOddNumbersInListFunctional(numbers);
+		printNumbersOfCoursesCharacters(courses);
 	}
 	
 
@@ -47,6 +49,23 @@ public class FP01Excercises {
 	private static void printFourLettersCourses(List<String> courses) {
 		System.out.println("\nFunctional 4 letters Courses: ");
 		courses.stream().filter(c -> c.length() >= 4).forEach(System.out::println);
+	}
+	
+	private static void printCubesOfOddNumbersInListFunctional(List<Integer> numbers) {
+		System.out.println("\nFunctional Cubes of Odd: ");
+		numbers.stream()
+			.filter(n -> n % 2 != 0)
+			.map(n -> n * n * n)
+			.forEach(System.out::println);
+	}
+	
+	private static void printNumbersOfCoursesCharacters(List<String> courses) {
+		System.out.println("\nFunctional Courses: ");
+		courses.stream()
+//			.map(c -> c.length())
+//			.map(c -> c + " " + c.length())
+			.map(c -> String.format("%15s (number of characters): %d", c, c.length()))
+			.forEach(System.out::println);
 	}
 
 }
