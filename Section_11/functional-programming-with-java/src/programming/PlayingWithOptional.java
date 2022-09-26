@@ -22,7 +22,6 @@ public class PlayingWithOptional {
 		System.out.println(fruit);
 		System.out.println(empty);
 		
-		
 	}
 
 }
