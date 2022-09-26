@@ -24,14 +24,15 @@ public class FP01Functional {
 	}
 	
 	
-	private static boolean isEven(int number) {
-		return number % 2 == 0;
-	}
+//	private static boolean isEven(int number) {
+//		return number % 2 == 0;
+//	}
 	
 	private static void printEvenNumbersInListFunctional(List<Integer> numbers) {
 		
 		System.out.println("Functional Even: ");
-		numbers.stream().filter(FP01Functional::isEven).forEach(System.out::println);
+//		numbers.stream().filter(FP01Functional::isEven).forEach(System.out::println);
+		numbers.stream().filter(n -> n % 2 == 0).forEach(System.out::println);
 	}
 	
 
