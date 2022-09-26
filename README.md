@@ -165,4 +165,6 @@ Completion tracking:
             127. Step 06 - Using map in Functional Programs - with Exercises
             128. Step 07 - Understanding Optional class in Java
             129. Step 08 - Quick Review of Functional Programming Basics
+  ```
   
+ 27.09.2022	Course "Master Java Web Services and REST API with Spring Boot" is finished
