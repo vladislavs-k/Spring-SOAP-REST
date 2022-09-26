@@ -17,7 +17,7 @@ Completion tracking:
 | Completed |   5.  SOAP Web Services with Spring and Spring Boot                   |
 | Completed |   6.  RESTful Web Services with Spring and Spring Boot                |
 | Completed |   7.  Introduction to JPA in 10 Steps                                 |
-| InProgress|   8.  Connecting RESTful Web Service to JPA                           |
+| Completed |   8.  Connecting RESTful Web Service to JPA                           |
 |           |   9.  RESTful Web Services - Best Practices                           |
 |           |   10. Congratulations                                                 |
 |           |   11. APPENDIX - Introduction to Functional Programming in 30 Minutes |
