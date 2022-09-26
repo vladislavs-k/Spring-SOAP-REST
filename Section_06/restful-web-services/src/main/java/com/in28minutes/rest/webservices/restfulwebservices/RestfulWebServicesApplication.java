@@ -16,3 +16,4 @@ public class RestfulWebServicesApplication {
 }
 
 //S6: Section 6 completed!
+//S8: Section 8 completed!
