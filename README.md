@@ -20,7 +20,7 @@ Completion tracking:
 | Completed |   8.  Connecting RESTful Web Service to JPA                           |
 | Completed |   9.  RESTful Web Services - Best Practices                           |
 | Completed |   10. Congratulations                                                 |
-|           |   11. APPENDIX - Introduction to Functional Programming in 30 Minutes |
+| InProgress|   11. APPENDIX - Introduction to Functional Programming in 30 Minutes |
 ```
 
 ### Topics that are covered in this course:
